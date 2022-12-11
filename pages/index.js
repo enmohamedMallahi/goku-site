@@ -39,7 +39,7 @@ export default function Home() {
 			</header>
 
 			<div className='mx-auto max-w-screen-md py-6 text-center'>
-				<p className='text-2xl uppercase font-bold text-gray-900 dark:text-white'>
+				<p className='text-2xl uppercase font-bold text-gray-900'>
 					"May <span className='text-orange-500'>9</span> is goku day in{' '}
 					<span className='text-orange-500'>japan</span>"
 				</p>
@@ -107,7 +107,7 @@ export default function Home() {
 			</div>
 
 			<div className='mx-auto max-w-screen-md py-6 '>
-				<h2 className='mb-2 text-3xl text-center uppercase font-bold text-gray-900 dark:text-white'>
+				<h2 className='mb-2 text-3xl text-center uppercase font-bold text-gray-900 '>
 					Super Saiyan <span className='text-orange-500'>Forms</span>
 				</h2>
 				<p className='mb-6 text-center'>
@@ -117,42 +117,62 @@ export default function Home() {
 				</p>
 				<div className='grid grid-cols-2 md:grid-cols-3 gap-4'>
 					<div className='relative flex flex-col items-center'>
-						<div className="absolute z-[-10] bottom-8 w-40 h-40 bg-orange-200 rounded-full"></div>
-						<img className='h-60 hover:opacity-80 transition duration-100s' src='./ssj-1.png' alt='Super Saiyan 1' />
+						<div className='absolute z-[-10] bottom-8 w-40 h-40 bg-orange-200 rounded-full'></div>
+						<img
+							className='h-60 hover:opacity-80 transition duration-100s'
+							src='./ssj-1.png'
+							alt='Super Saiyan 1'
+						/>
 						<h3 className='font-bold'>
 							Super Saiyan <span className='text-orange-500'>1</span>
 						</h3>
 					</div>
 					<div className='relative flex flex-col items-center'>
-						<div className="absolute z-[-10] bottom-8 w-40 h-40 bg-orange-200 rounded-full"></div>
-						<img className='h-60 hover:opacity-80 transition duration-100s' src='./ssj-2.png' alt='Super Saiyan 2' />
+						<div className='absolute z-[-10] bottom-8 w-40 h-40 bg-orange-200 rounded-full'></div>
+						<img
+							className='h-60 hover:opacity-80 transition duration-100s'
+							src='./ssj-2.png'
+							alt='Super Saiyan 2'
+						/>
 						<h3 className='font-bold'>
 							Super Saiyan <span className='text-orange-500'>2</span>
 						</h3>
 					</div>
 					<div className='relative flex flex-col items-center'>
-						<div className="absolute z-[-10] bottom-8 w-40 h-40 bg-orange-200 rounded-full"></div>
-						<img className='h-60 hover:opacity-80 transition duration-100s' src='./ssj-3.png' alt='Super Saiyan 3' />
+						<div className='absolute z-[-10] bottom-8 w-40 h-40 bg-orange-200 rounded-full'></div>
+						<img
+							className='h-60 hover:opacity-80 transition duration-100s'
+							src='./ssj-3.png'
+							alt='Super Saiyan 3'
+						/>
 						<h3 className='font-bold'>
 							Super Saiyan <span className='text-orange-500'>3</span>
 						</h3>
 					</div>
 					<div className='relative flex flex-col items-center'>
-						<div className="absolute z-[-10] bottom-8 w-40 h-40 bg-orange-200 rounded-full"></div>
-						<img className='h-60 hover:opacity-80 transition duration-100s' src='./kaioken.webp' alt='Kaioken' />
+						<div className='absolute z-[-10] bottom-8 w-40 h-40 bg-orange-200 rounded-full'></div>
+						<img
+							className='h-60 hover:opacity-80 transition duration-100s'
+							src='./kaioken.webp'
+							alt='Kaioken'
+						/>
 						<h3 className='font-bold'>
 							<span className='text-orange-500'>Kaioken</span>
 						</h3>
 					</div>
 					<div className='relative flex flex-col items-center'>
-						<div className="absolute z-[-10] bottom-8 w-40 h-40 bg-orange-200 rounded-full"></div>
-						<img className='h-60 hover:opacity-80 transition duration-100s' src='./ssj-red.png' alt='Super Saiyan Red' />
+						<div className='absolute z-[-10] bottom-8 w-40 h-40 bg-orange-200 rounded-full'></div>
+						<img
+							className='h-60 hover:opacity-80 transition duration-100s'
+							src='./ssj-red.png'
+							alt='Super Saiyan Red'
+						/>
 						<h3 className='font-bold'>
 							Super Saiyan <span className='text-orange-500'>Red</span>
 						</h3>
 					</div>
 					<div className='relative flex flex-col items-center'>
-											<div className="absolute z-[-10] bottom-8 w-40 h-40 bg-orange-200 rounded-full"></div>
+						<div className='absolute z-[-10] bottom-8 w-40 h-40 bg-orange-200 rounded-full'></div>
 
 						<img
 							className='h-60 hover:opacity-80 transition duration-100s'
@@ -170,7 +190,7 @@ export default function Home() {
 				<p>
 					© 2022 -{' '}
 					<span className='text-orange-500 font-bold'>The Mighty Goku</span>.
-					Built by <a href="https://www.mohaxmall.com">Mohamed Mallahi</a>
+					Built by <a href='https://www.mohaxmall.com'>Mohamed Mallahi</a>
 				</p>
 			</footer>
 		</>

@@ -39,7 +39,7 @@ export default function Home() {
 			</header>
 
 			<div className='mx-auto max-w-screen-md py-6 text-center'>
-				<p className='text-2xl uppercase font-bold text-gray-900 dark:text-white'>
+				<p className='text-2xl uppercase font-bold text-gray-900'>
 					"May <span className='text-red-500'>5</span> is Luffy day in{' '}
 					<span className='text-red-500'>japan</span>"
 				</p>
@@ -112,7 +112,7 @@ export default function Home() {
 			</div>
 
 			<div className='mx-auto max-w-screen-md py-6 '>
-				<h2 className='mb-2 text-3xl text-center uppercase font-bold text-gray-900 dark:text-white'>
+				<h2 className='mb-2 text-3xl text-center uppercase font-bold text-gray-900'>
 					Luffy Gears <span className='text-red-500'>Forms</span>
 				</h2>
 				<p className='mb-6 text-center'>
