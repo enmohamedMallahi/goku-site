@@ -115,7 +115,7 @@ export default function Home() {
 					appearance, and there is now a total of 21 different Super Saiyan
 					forms in the Dragon Ball franchise.
 				</p>
-				<div className='grid grid-cols-2 md:grid-cols-3 gap-4'>
+				<div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
 					<div className='relative flex flex-col items-center'>
 						<div className='absolute z-[-10] bottom-8 w-40 h-40 bg-orange-200 rounded-full'></div>
 						<img
