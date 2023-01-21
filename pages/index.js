@@ -45,7 +45,7 @@ export default function Home() {
 				</p>
 			</div>
 
-			<div className='md:flex py-4 px-8 items-center'>
+			<div className='md:flex py-4 px-4 items-center'>
 				<div className='md:w-1/2 flex items-center justify-center'>
 					<img className='w-[40%]' src='./goku4.png' alt='The Mighty Goku' />
 				</div>
@@ -106,7 +106,7 @@ export default function Home() {
 				/>
 			</div>
 
-			<div className='mx-auto max-w-screen-md py-6 '>
+			<div className='mx-auto max-w-screen-md py-6 px-2 '>
 				<h2 className='mb-2 text-3xl text-center uppercase font-bold text-gray-900 '>
 					Super Saiyan <span className='text-orange-500'>Forms</span>
 				</h2>
@@ -115,11 +115,11 @@ export default function Home() {
 					appearance, and there is now a total of 21 different Super Saiyan
 					forms in the Dragon Ball franchise.
 				</p>
-				<div className='grid grid-cols-1 md:grid-cols-3 gap-4'>
+				<div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4'>
 					<div className='relative flex flex-col items-center'>
 						<div className='absolute z-[-10] bottom-8 w-40 h-40 bg-orange-200 rounded-full'></div>
 						<img
-							className='h-60 hover:opacity-80 transition duration-100s'
+							className='h-60 hover:scale-110 transition duration-100s'
 							src='./ssj-1.png'
 							alt='Super Saiyan 1'
 						/>
@@ -130,7 +130,7 @@ export default function Home() {
 					<div className='relative flex flex-col items-center'>
 						<div className='absolute z-[-10] bottom-8 w-40 h-40 bg-orange-200 rounded-full'></div>
 						<img
-							className='h-60 hover:opacity-80 transition duration-100s'
+							className='h-60 hover:scale-110 transition duration-100s'
 							src='./ssj-2.png'
 							alt='Super Saiyan 2'
 						/>
@@ -141,7 +141,7 @@ export default function Home() {
 					<div className='relative flex flex-col items-center'>
 						<div className='absolute z-[-10] bottom-8 w-40 h-40 bg-orange-200 rounded-full'></div>
 						<img
-							className='h-60 hover:opacity-80 transition duration-100s'
+							className='h-60 hover:scale-110 transition duration-100s'
 							src='./ssj-3.png'
 							alt='Super Saiyan 3'
 						/>
@@ -152,7 +152,7 @@ export default function Home() {
 					<div className='relative flex flex-col items-center'>
 						<div className='absolute z-[-10] bottom-8 w-40 h-40 bg-orange-200 rounded-full'></div>
 						<img
-							className='h-60 hover:opacity-80 transition duration-100s'
+							className='h-60 hover:scale-110 transition duration-100s'
 							src='./kaioken.webp'
 							alt='Kaioken'
 						/>
@@ -163,7 +163,7 @@ export default function Home() {
 					<div className='relative flex flex-col items-center'>
 						<div className='absolute z-[-10] bottom-8 w-40 h-40 bg-orange-200 rounded-full'></div>
 						<img
-							className='h-60 hover:opacity-80 transition duration-100s'
+							className='h-60 hover:scale-110 transition duration-100s'
 							src='./ssj-red.png'
 							alt='Super Saiyan Red'
 						/>
@@ -175,7 +175,7 @@ export default function Home() {
 						<div className='absolute z-[-10] bottom-8 w-40 h-40 bg-orange-200 rounded-full'></div>
 
 						<img
-							className='h-60 hover:opacity-80 transition duration-100s'
+							className='h-60 hover:scale-110 transition duration-100s'
 							src='./ssj-blue.png'
 							alt='Super Saiyan Blue'
 						/>
